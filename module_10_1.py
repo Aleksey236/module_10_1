@@ -18,7 +18,7 @@ write_words(100, "example4.txt")
 
 time_end_1 = time()
 time_res_1 = time_end_1 - time_start_1
-print(f'Время выполнения фунцкии{time_res_1}')
+print(f'Время работы фунцкии{time_res_1}')
 
 
 time_start_2 = time()
@@ -40,4 +40,4 @@ the_fourth.join()
 
 time_end_2 = time()
 time_res_2 = time_end_2 - time_start_2
-print(f'Время выполнения потоков{time_res_2}')
+print(f'Время работы потоков{time_res_2}')
